@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QRCoder é um gerador de QRCode online. O usuário escreve ou cola algo e, ao clicar no botão, o QRCode é gerado automaticamente e o mesmo pode ser baixado como uma imagem.">
+    <link rel="stylesheet" href="style.css">
+    <title>QRCoder - Gerando QRCode pra tudo!</title>
+</head>
+<body>
+    
+    <header>
+        <h1>QRCoder</h1>
+        <h3>Gerando QRCode pra tudo!</h3>
+    </header>
+
+    <section class="user-input">
+        <label for="input_text">Digite algo...</label>
+        <input type="text" name="input_text" id="input_text" autocomplete="off">
+        <button class="button" type="submit">Gerar QRCode</button>
+    </section>
+
+    <div class="qrcode" id="qrcode" style='display: none;'></div>
+
+    <script src="qrcodejs/qrcode.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
