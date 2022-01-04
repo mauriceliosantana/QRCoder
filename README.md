@@ -11,7 +11,3 @@ O QRCoder foi desenvolvido utilizando a biblioteca QRCode.js. A biblioteca pode 
 Instagram: @mauricelio.santana
 Tik Tok: @mauricelio.santana
 Github: https://github.com/mauriceliosantana
-
-## Versão
-
-1.1
